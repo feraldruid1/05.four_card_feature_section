@@ -151,7 +151,43 @@ img {
         width: 1440px;
         height: 922px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        justify-content: flex-start;
     }
+    .minidivhead{
+        width: 540px;
 
+    }
+    .head{
+        width: 1440px;
+        margin-top: 80px;
+    }
+    .bigconteiner1{
+        height: 922px;
+    }
+    .bigdiv{
+        margin-top: 64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .minibigdiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .conteiner1 {
+        margin: 0px;
+        margin-right: 30px;       
+    }
+    .conteiner2 {
+        margin: 0px;
+    }
+    .conteiner3 {
+        margin: 0px;
+        margin-top: 30px;
+    }
+    .conteiner4 {
+        margin: 0px;
+        margin-left: 30px;
+    }
 }
