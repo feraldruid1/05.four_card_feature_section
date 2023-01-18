@@ -152,11 +152,12 @@ img {
 }
 @media only screen and (min-width:1200px){
     body{
-        width: 1440px;
+                width: 1440px;
         height: 922px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        align-items: center;
     }
     .minidivhead{
         width: 540px;
@@ -200,6 +201,6 @@ img {
         width: 350px;
         height: 250px;
         margin: 0px;
-        margin-left: 30px;
+        margin-left: 30px;  
     }
 }
